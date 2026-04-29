@@ -1,0 +1,27 @@
+
+.tabs {
+    --tabs-divider-height: 1px;
+    --tabs-indicator-height: 3px;
+
+    .container {
+        padding-top: 0;
+        padding-left: 0em;
+        margin-bottom: calc(0px - var(--tabs-divider-height));
+        display: flex;
+
+        .tabs {
+            min-width: 0;
+            flex: 1;
+        }
+
+        .controls {
+            flex: 0;
+            align-content: center;
+        }
+    }
+
+    .divider {
+        height: var(--tabs-divider-height);
+        background-color: #DDDDDD;
+    }
+}

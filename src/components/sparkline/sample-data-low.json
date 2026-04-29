@@ -1,0 +1,24 @@
+{
+  "default": [
+    {"key": "1", "label": "Point 1", "displayLabel": "Sample Point 1", "value": 80.5},
+    {"key": "2", "label": "Point 2", "displayLabel": "Sample Point 2", "value": 67.8},
+    {"key": "3", "label": "Point 3", "displayLabel": "Sample Point 3", "value": 12.1},
+    {"key": "4", "label": "Point 4", "displayLabel": "Sample Point 4", "value": 89.3},
+    {"key": "5", "label": "Point 5", "displayLabel": "Sample Point 5", "value": 1},
+    {"key": "6", "label": "Point 6", "displayLabel": "Sample Point 6", "value": 2},
+    {"key": "7", "label": "Point 7", "displayLabel": "Sample Point 7", "value": 1},
+    {"key": "8", "label": "Point 8", "displayLabel": "Sample Point 8", "value": 0},
+    {"key": "9", "label": "Point 9", "displayLabel": "Sample Point 9", "value": 5},
+    {"key": "10", "label": "Point 10", "displayLabel": "Sample Point 10", "value": 82.4},
+    {"key": "11", "label": "Point 11", "displayLabel": "Sample Point 11", "value": 19.8},
+    {"key": "12", "label": "Point 12", "displayLabel": "Sample Point 12", "value": 73.5},
+    {"key": "13", "label": "Point 13", "displayLabel": "Sample Point 13", "value": 41.2},
+    {"key": "14", "label": "Point 14", "displayLabel": "Sample Point 14", "value": 95.6},
+    {"key": "15", "label": "Point 15", "displayLabel": "Sample Point 15", "value": 28.7},
+    {"key": "16", "label": "Point 16", "displayLabel": "Sample Point 16", "value": 64.9},
+    {"key": "17", "label": "Point 17", "displayLabel": "Sample Point 17", "value": 0},
+    {"key": "18", "label": "Point 18", "displayLabel": "Sample Point 18", "value": 0},
+    {"key": "19", "label": "Point 19", "displayLabel": "Sample Point 19", "value": 2.8},
+    {"key": "20", "label": "Point 20", "displayLabel": "Sample Point 20", "value": 71.4}
+  ]
+}

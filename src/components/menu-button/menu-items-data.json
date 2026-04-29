@@ -1,0 +1,176 @@
+{
+  "actions": [
+    { "label": "Edit", "value": "edit" },
+    { "label": "Delete", "value": "delete" },
+    { "label": "Duplicate", "value": "duplicate" },
+    { "label": "Share", "value": "share" },
+    { "label": "Export", "value": "export" }
+  ],
+  "actions-long": [
+    { "label": "Edit Long Label", "value": "edit" },
+    { "label": "Delete Long Long Label", "value": "delete" },
+    { "label": "Duplicate Long Long Label", "value": "duplicate" },
+    { "label": "Share Long Long Label", "value": "share" },
+    { "label": "Export Long Long Label", "value": "export" }
+  ],
+  "status": [
+    { "label": "Active", "value": "active" },
+    { "label": "Inactive", "value": "inactive" },
+    { "label": "Pending", "value": "pending" },
+    { "label": "Completed", "value": "completed" },
+    { "label": "Cancelled", "value": "cancelled" }
+  ],
+  "users": [
+    { "label": "John Doe", "value": "john" },
+    { "label": "Jane Smith", "value": "jane" },
+    { "label": "Bob Johnson", "value": "bob" },
+    { "label": "Alice Brown", "value": "alice" },
+    { "label": "Charlie Wilson", "value": "charlie" }
+  ],
+  "countries": [
+    { "label": "United States", "value": "us", "image": "https://flagcdn.com/w40/us.png" },
+    { "label": "Canada", "value": "ca", "image": "https://flagcdn.com/w40/ca.png" },
+    { "label": "United Kingdom", "value": "uk", "image": "https://flagcdn.com/w40/gb.png" },
+    { "label": "Germany", "value": "de", "image": "https://flagcdn.com/w40/de.png" },
+    { "label": "France", "value": "fr", "image": "https://flagcdn.com/w40/fr.png" }
+  ],
+  "countries-with-icons": [
+    {
+      "label": "United States",
+      "value": "us",
+      "icon": {
+        "type": "img",
+        "src": "https://flagcdn.com/w80/us.png",
+        "alt": "US",
+        "style": {
+          "width": "24px",
+          "height": "18px",
+          "borderRadius": "4px",
+          "objectFit": "cover"
+        }
+      }
+    },
+    {
+      "label": "Canada",
+      "value": "ca",
+      "icon": {
+        "type": "img",
+        "src": "https://flagcdn.com/w80/ca.png",
+        "alt": "CA",
+        "style": {
+          "width": "24px",
+          "height": "18px",
+          "borderRadius": "4px",
+          "objectFit": "cover"
+        }
+      }
+    },
+    {
+      "label": "United Kingdom",
+      "value": "uk",
+      "icon": {
+        "type": "img",
+        "src": "https://flagcdn.com/w80/gb.png",
+        "alt": "UK",
+        "style": {
+          "width": "24px",
+          "height": "18px",
+          "borderRadius": "4px",
+          "objectFit": "cover"
+        }
+      }
+    },
+    {
+      "label": "Germany",
+      "value": "de",
+      "icon": {
+        "type": "img",
+        "src": "https://flagcdn.com/w80/de.png",
+        "alt": "DE",
+        "style": {
+          "width": "24px",
+          "height": "18px",
+          "borderRadius": "4px",
+          "objectFit": "cover"
+        }
+      }
+    },
+    {
+      "label": "France",
+      "value": "fr",
+      "icon": {
+        "type": "img",
+        "src": "https://flagcdn.com/w80/fr.png",
+        "alt": "FR",
+        "style": {
+          "width": "24px",
+          "height": "18px",
+          "borderRadius": "4px",
+          "objectFit": "cover"
+        }
+      }
+    }
+  ],
+  "status-with-icons": [
+    {
+      "label": "Active",
+      "value": "active",
+      "icon": {
+        "type": "span",
+        "content": "●",
+        "style": {
+          "color": "#4CAF50",
+          "fontSize": "16px"
+        }
+      }
+    },
+    {
+      "label": "Inactive",
+      "value": "inactive",
+      "icon": {
+        "type": "span",
+        "content": "●",
+        "style": {
+          "color": "#F44336",
+          "fontSize": "16px"
+        }
+      }
+    },
+    {
+      "label": "Pending",
+      "value": "pending",
+      "icon": {
+        "type": "span",
+        "content": "●",
+        "style": {
+          "color": "#FF9800",
+          "fontSize": "16px"
+        }
+      }
+    },
+    {
+      "label": "Completed",
+      "value": "completed",
+      "icon": {
+        "type": "span",
+        "content": "●",
+        "style": {
+          "color": "#2196F3",
+          "fontSize": "16px"
+        }
+      }
+    },
+    {
+      "label": "Cancelled",
+      "value": "cancelled",
+      "icon": {
+        "type": "span",
+        "content": "●",
+        "style": {
+          "color": "#9E9E9E",
+          "fontSize": "16px"
+        }
+      }
+    }
+  ]
+}

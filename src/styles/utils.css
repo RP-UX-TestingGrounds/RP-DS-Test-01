@@ -1,0 +1,75 @@
+.actionable {
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover, &:focus, &:focus:hover {
+    background-color: hsla(from var(--action-base) h s l / var(--action-hover-alpha)) !important;
+    &.filled {
+      /* boost chroma for non-greyscale colors while we're darkening to reduce dullness */
+      --chroma-boost: calc(0.03 * (1 - var(--is-greyscale, 1)));
+      background-color: oklch(
+        from var(--action-filled-base, var(--action-base))
+        calc(l - 0.1) calc(c + var(--chroma-boost)) h
+      ) !important;
+    }
+  }
+  &:active, &:focus:active, &:focus:hover:active {
+    background-color: hsla(from var(--action-base) h s l / var(--action-active-alpha)) !important;
+    &.filled {
+      /* boost chroma for non-greyscale colors while we're darkening to reduce dullness */
+      --chroma-boost: calc(0.03 * (1 - var(--is-greyscale, 1)));
+      background-color: oklch(
+        from var(--action-filled-base, var(--action-base))
+        calc(l - 0.04) calc(c + var(--chroma-boost)) h
+      ) !important;
+    }
+  }
+}
+
+.typography-body-sm {
+  font-family: var(--typography-body-sm-font-family);
+  font-weight: var(--typography-body-sm-font-weight);
+  font-size: var(--typography-body-sm-font-size);
+  line-height: var(--typography-body-sm-line-height);
+  letter-spacing: var(--typography-body-sm-letter-spacing);
+}
+
+.typography-body-md {
+  font-family: var(--typography-body-md-font-family);
+  font-weight: var(--typography-body-md-font-weight);
+  font-size: var(--typography-body-md-font-size);
+  line-height: var(--typography-body-md-line-height);
+  letter-spacing: var(--typography-body-md-letter-spacing);
+}
+
+.typography-title-sm {
+  font-family: var(--typography-title-sm-font-family);
+  font-weight: var(--typography-title-sm-font-weight);
+  font-size: var(--typography-title-sm-font-size);
+  line-height: var(--typography-title-sm-line-height);
+  letter-spacing: var(--typography-title-sm-letter-spacing);
+}
+
+.typography-title-md {
+  font-family: var(--typography-title-md-font-family);
+  font-weight: var(--typography-title-md-font-weight);
+  font-size: var(--typography-title-md-font-size);
+  line-height: var(--typography-title-md-line-height);
+  letter-spacing: var(--typography-title-md-letter-spacing);
+}
+
+.typography-title-lg {
+  font-family: var(--typography-title-lg-font-family);
+  font-weight: var(--typography-title-lg-font-weight);
+  font-size: var(--typography-title-lg-font-size);
+  line-height: var(--typography-title-lg-line-height);
+  letter-spacing: var(--typography-title-lg-letter-spacing);
+}
+
+.typography-heading-sm {
+  font-family: var(--typography-heading-sm-font-family);
+  font-weight: var(--typography-heading-sm-font-weight);
+  font-size: var(--typography-heading-sm-font-size);
+  line-height: var(--typography-heading-sm-line-height);
+  letter-spacing: var(--typography-heading-sm-letter-spacing);
+}

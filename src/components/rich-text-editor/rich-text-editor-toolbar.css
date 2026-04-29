@@ -1,0 +1,30 @@
+/* Toolbar styles scoped to RichTextEditor instance; do not use unscoped .tox- selectors. */
+.rp-tinymce-toolbar-scope .tox-toolbar .tox-tbtn__select-label,
+.rp-tinymce-toolbar-scope .tox-toolbar .tox-tbtn:not(.tox-tbtn--select) .tox-tbtn__text,
+.rp-tinymce-toolbar-scope .tox-toolbar button.tox-tbtn:not(.tox-tbtn--select) .tox-tbtn__text {
+  display: none !important;
+}
+.rp-tinymce-toolbar-scope .tox-toolbar .tox-tbtn .tox-icon,
+.rp-tinymce-toolbar-scope .tox-toolbar button .tox-icon {
+  display: block !important;
+}
+/* Text Replacements menu button: show both icon and label (button name from text-replacements-button.js). */
+.rp-tinymce-toolbar-scope .tox-toolbar button[data-mce-name="textreplacements"].tox-tbtn--select .tox-tbtn__select-label,
+.rp-tinymce-toolbar-scope .tox-toolbar button[data-mce-name="textreplacements"].tox-tbtn--select .tox-icon {
+  display: inline-block !important;
+}
+.rp-tinymce-toolbar-scope .tox-toolbar button[data-mce-name="textreplacements"].tox-tbtn--select .tox-tbtn__select-label {
+  margin-left: 4px;
+  color: inherit;
+}
+.rp-tinymce-toolbar-scope .tox-toolbar button[data-mce-name="textreplacements"].tox-tbtn--select .tox-icon {
+  margin-right: 4px;
+}
+.rp-tinymce-toolbar-scope .tox-toolbar__primary {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+}
+.rp-tinymce-toolbar-scope .tox-toolbar__group:last-child,
+.rp-tinymce-toolbar-scope .tox-toolbar__group--pull-right {
+  margin-left: auto !important;
+}

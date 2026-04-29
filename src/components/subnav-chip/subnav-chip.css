@@ -1,0 +1,56 @@
+
+.chip {
+    &:global(.MuiChip-root) {
+        /* border for selected is 2px, so increasing by .1rem in unselected state to prevent shifts */
+        padding: .5rem 1.1rem;
+        font-size: var(--body-font-size);
+        font-family: inherit;
+        height: 4rem;
+        border-radius: 9.6rem;
+        border: 1px solid var(--border-primary);
+    }
+
+    :global(.MuiChip-label) {
+        padding: 0 0.6rem;
+    }
+}
+
+.selected {
+    --action-base: var(--primary-main);
+
+    &:global(.MuiChip-root) {
+        padding: .5rem 1rem;
+        border-color: var(--primary-main);
+        border-width: 2px;
+        color: var(--primary-dark);
+    }
+}
+
+.chip[data-badge] {
+    &:after {
+        --padding: 1rem;
+
+        content: attr(data-badge);
+        background-color: var(--default-light);
+        color: var(--text-primary);
+        min-width: calc(2.8rem - (var(--padding) * 2));
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        border-radius: 1.2rem;
+        padding: .3rem var(--padding);
+        flex-shrink: 0;
+    }
+    &:global(.Mui-selected) {
+        &:after {
+            background-color: var(--primary-light);
+            color: var(--primary-dark);
+        }
+    }
+
+    &.selected {
+        &:after {
+            background-color: var(--primary-light);
+            color: var(--primary-dark);
+        }
+    }
+}

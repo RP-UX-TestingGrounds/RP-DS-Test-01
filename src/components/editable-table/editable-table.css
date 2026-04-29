@@ -1,0 +1,17 @@
+.tableHeadContainer {
+    border-bottom: 2px solid #DDD;
+}
+
+.headerContainer {
+    padding-bottom: 8px !important;
+    font-weight: 700 !important;
+}
+
+.tableCellInputContainer {
+    padding: 10px 16px !important;
+}
+
+.tableCellClearButton {
+    width: .3rem;
+    padding: 0px !important;
+}

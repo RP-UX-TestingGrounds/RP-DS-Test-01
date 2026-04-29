@@ -1,0 +1,25 @@
+{
+  "default": [
+    "var(--rate-metric-10)",
+    "var(--rate-metric-20)",
+    "var(--rate-metric-30)",
+    "var(--rate-metric-40)",
+    "var(--rate-metric-50)",
+    "var(--rate-metric-60)",
+    "var(--rate-metric-70)",
+    "var(--rate-metric-80)",
+    "var(--rate-metric-90)"
+  ],
+  "fiveSections": [
+    "var(--cat-10)",
+    "var(--cat-10)",
+    "var(--cat-10)",
+    "var(--cat-20)",
+    "var(--cat-20)"
+  ],
+  "threeSections": [
+    "var(--error-main)",
+    "var(--warning-main)",
+    "var(--success-main)"
+  ]
+}

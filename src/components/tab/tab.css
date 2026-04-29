@@ -1,0 +1,44 @@
+.tab {
+    &:global(.MuiTab-root) {
+        text-transform: none;
+        min-width: 0 !important;
+        max-width: none;
+        padding: 0 2em;
+        opacity: 1;
+        font-size: var(--body-font-size);
+        color: var(--text-primary);
+        font-weight: var(--font-weight-regular);
+        font-family: inherit;
+        border-radius: .5rem .5rem 0 0;
+        flex-direction: row;
+        letter-spacing: 0.04rem;
+    }
+
+    &:global(.Mui-selected) {
+        --action-base: var(--primary-main);
+        color: var(--primary-main);
+    }
+}
+
+.tab[data-badge] {
+    &:after {
+        --padding: 0.6rem;
+        content: attr(data-badge);
+        background-color: var(--default-light);
+        color: var(--text-primary);
+        min-width: 2.8rem;
+        box-sizing: border-box;
+        margin-left: .8em;
+        font-size: 1.3rem;
+        line-height: 2.4rem;
+        border-radius: .5rem;
+        padding: 0 var(--padding);
+        flex-shrink: 0;
+    }
+    &:global(.Mui-selected) {
+        &:after {
+            background-color: var(--primary-light);
+            color: var(--primary-dark);
+        }
+    }
+}

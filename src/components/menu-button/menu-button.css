@@ -1,0 +1,7 @@
+.menu-button-icon {
+  transition: transform 0.2s ease-in-out;
+}
+
+[data-menu-open="true"] .menu-button-icon {
+  transform: rotate(180deg);
+}

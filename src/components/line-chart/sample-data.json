@@ -1,0 +1,395 @@
+{
+    "default": [
+      {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 80.5},
+      {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 67.8},
+      {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 12.1},
+      {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 89.3},
+      {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 45.6},
+      {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 78.9},
+      {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 34.2},
+      {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 91.7},
+      {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 56.3},
+      {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 82.4},
+      {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 19.8},
+      {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 73.5}
+    ],
+    "multipleSeries": {
+      "metadata": {
+        "seriesLabels": {
+          "revenue": "Revenue",
+          "expenses": "Expenses",
+          "profit": "Profit"
+        }
+      },
+      "revenue": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 4000},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 3000},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 2000},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 2780},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 1890},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 2390},
+        {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 3490},
+        {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 4200},
+        {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 3800},
+        {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 4500},
+        {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 3200},
+        {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 4100}
+      ],
+      "expenses": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 2400},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 1398},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 9800},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 3908},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 4800},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 3800},
+        {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 4300},
+        {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 2900},
+        {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 3500},
+        {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 4000},
+        {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 3100},
+        {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 3600}
+      ],
+      "profit": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 1600},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 1602},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 1200},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 872},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 990},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 1590},
+        {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 1190},
+        {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 1300},
+        {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 1300},
+        {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 1500},
+        {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 1100},
+        {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 1500}
+      ]
+    },
+    "areaChart": [
+      {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 400},
+      {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 300},
+      {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 200},
+      {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 278},
+      {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 189},
+      {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 239},
+      {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 349},
+      {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 420},
+      {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 380},
+      {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 450},
+      {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 320},
+      {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 410}
+    ],
+    "withMarks": [
+      {"key": "1", "label": "00:00", "displayLabel": "Midnight", "value": 20},
+      {"key": "2", "label": "02:00", "displayLabel": "2 AM", "value": 22},
+      {"key": "3", "label": "04:00", "displayLabel": "4 AM", "value": 25},
+      {"key": "4", "label": "06:00", "displayLabel": "6 AM", "value": 28},
+      {"key": "5", "label": "08:00", "displayLabel": "8 AM", "value": 30},
+      {"key": "6", "label": "10:00", "displayLabel": "10 AM", "value": 32},
+      {"key": "7", "label": "12:00", "displayLabel": "Noon", "value": 28},
+      {"key": "8", "label": "14:00", "displayLabel": "2 PM", "value": 25},
+      {"key": "9", "label": "16:00", "displayLabel": "4 PM", "value": 22},
+      {"key": "10", "label": "18:00", "displayLabel": "6 PM", "value": 20},
+      {"key": "11", "label": "20:00", "displayLabel": "8 PM", "value": 18},
+      {"key": "12", "label": "22:00", "displayLabel": "10 PM", "value": 15}
+    ],
+    "growth": [
+      {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 1000},
+      {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 1250},
+      {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 1580},
+      {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 2100},
+      {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 2800},
+      {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 3500},
+      {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 4200},
+      {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 5100},
+      {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 6300},
+      {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 7800},
+      {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 9200},
+      {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 11000}
+    ],
+    "metrics": {
+      "metadata": {
+        "seriesLabels": {
+          "activeUsers": "Active Users",
+          "pageViews": "Page Views",
+          "conversions": "Conversions"
+        }
+      },
+      "activeUsers": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 32500},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 18200},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 41800},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 15600},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 38900},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 22400},
+        {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 44200},
+        {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 19700},
+        {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 35300},
+        {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 28600},
+        {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 46100},
+        {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 24800}
+      ],
+      "pageViews": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 21300},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 39600},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 25400},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 43800},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 17900},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 36700},
+        {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 28100},
+        {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 45500},
+        {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 20800},
+        {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 38200},
+        {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 26900},
+        {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 42400}
+      ],
+      "conversions": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 28700},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 35200},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 19500},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 41600},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 23800},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 47300},
+        {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 31200},
+        {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 26900},
+        {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 44800},
+        {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 33400},
+        {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 21600},
+        {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 39700}
+      ]
+    },
+    "quarterly": [
+      {"key": "1", "label": "JAN 1, 2023", "displayLabel": "Q1 2023", "value": 15000},
+      {"key": "2", "label": "APR 1, 2023", "displayLabel": "Q2 2023", "value": 18500},
+      {"key": "3", "label": "JUL 1, 2023", "displayLabel": "Q3 2023", "value": 22000},
+      {"key": "4", "label": "OCT 1, 2023", "displayLabel": "Q4 2023", "value": 25500},
+      {"key": "5", "label": "JAN 1, 2024", "displayLabel": "Q1 2024", "value": 29000},
+      {"key": "6", "label": "APR 1, 2024", "displayLabel": "Q2 2024", "value": 33500}
+    ],
+    "products": {
+      "metadata": {
+        "seriesLabels": {
+          "productA": "Product A",
+          "productB": "Product B",
+          "productC": "Product C"
+        }
+      },
+      "productA": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 3200},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 3450},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 3800},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 4100},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 4500},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 4850}
+      ],
+      "productB": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 2800},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 3100},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 3500},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 3900},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 4200},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 4600}
+      ],
+      "productC": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 1500},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 1750},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 2100},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 2500},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 2900},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 3400}
+      ]
+    },
+    "weekly": [
+      {"key": "1", "label": "JAN 1, 2025", "displayLabel": "Week 1", "value": 420},
+      {"key": "2", "label": "JAN 8, 2025", "displayLabel": "Week 2", "value": 450},
+      {"key": "3", "label": "JAN 15, 2025", "displayLabel": "Week 3", "value": 480},
+      {"key": "4", "label": "JAN 22, 2025", "displayLabel": "Week 4", "value": 520},
+      {"key": "5", "label": "JAN 29, 2025", "displayLabel": "Week 5", "value": 550},
+      {"key": "6", "label": "FEB 5, 2025", "displayLabel": "Week 6", "value": 580},
+      {"key": "7", "label": "FEB 12, 2025", "displayLabel": "Week 7", "value": 620},
+      {"key": "8", "label": "FEB 19, 2025", "displayLabel": "Week 8", "value": 650}
+    ],
+    "orders": {
+      "metadata": {
+        "seriesLabels": {
+          "totalOrders": "Total Orders",
+          "cancelledOrders": "Cancelled Orders"
+        },
+        "alternativeLabels": {
+          "totalOrders": "Sales Revenue",
+          "cancelledOrders": "Gross Profit"
+        }
+      },
+      "totalOrders": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January 1", "value": 85},
+        {"key": "2", "label": "JAN 2, 2025", "displayLabel": "January 2", "value": 88},
+        {"key": "3", "label": "JAN 3, 2025", "displayLabel": "January 3", "value": 82},
+        {"key": "4", "label": "JAN 4, 2025", "displayLabel": "January 4", "value": 78},
+        {"key": "5", "label": "JAN 5, 2025", "displayLabel": "January 5", "value": 75},
+        {"key": "6", "label": "JAN 6, 2025", "displayLabel": "January 6", "value": 72},
+        {"key": "7", "label": "JAN 7, 2025", "displayLabel": "January 7", "value": 76},
+        {"key": "8", "label": "JAN 8, 2025", "displayLabel": "January 8", "value": 80},
+        {"key": "9", "label": "JAN 9, 2025", "displayLabel": "January 9", "value": 84},
+        {"key": "10", "label": "JAN 10, 2025", "displayLabel": "January 10", "value": 88},
+        {"key": "11", "label": "JAN 11, 2025", "displayLabel": "January 11", "value": 92},
+        {"key": "12", "label": "JAN 12, 2025", "displayLabel": "January 12", "value": 95},
+        {"key": "13", "label": "JAN 13, 2025", "displayLabel": "January 13", "value": 98},
+        {"key": "14", "label": "JAN 14, 2025", "displayLabel": "January 14", "value": 102}
+      ],
+      "cancelledOrders": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January 1", "value": 10},
+        {"key": "2", "label": "JAN 2, 2025", "displayLabel": "January 2", "value": 12},
+        {"key": "3", "label": "JAN 3, 2025", "displayLabel": "January 3", "value": 20},
+        {"key": "4", "label": "JAN 4, 2025", "displayLabel": "January 4", "value": 39},
+        {"key": "5", "label": "JAN 5, 2025", "displayLabel": "January 5", "value": 34},
+        {"key": "6", "label": "JAN 6, 2025", "displayLabel": "January 6", "value": 30},
+        {"key": "7", "label": "JAN 7, 2025", "displayLabel": "January 7", "value": 80},
+        {"key": "8", "label": "JAN 8, 2025", "displayLabel": "January 8", "value": 72},
+        {"key": "9", "label": "JAN 9, 2025", "displayLabel": "January 9", "value": 55},
+        {"key": "10", "label": "JAN 10, 2025", "displayLabel": "January 10", "value": 30},
+        {"key": "11", "label": "JAN 11, 2025", "displayLabel": "January 11", "value": 25},
+        {"key": "12", "label": "JAN 12, 2025", "displayLabel": "January 12", "value": 45},
+        {"key": "13", "label": "JAN 13, 2025", "displayLabel": "January 13", "value": 56},
+        {"key": "14", "label": "JAN 14, 2025", "displayLabel": "January 14", "value": 69}
+      ]
+    },
+    "eightProducts": {
+      "metadata": {
+        "seriesLabels": {
+          "productA": "Product A",
+          "productB": "Product B",
+          "productC": "Product C",
+          "productD": "Product D",
+          "productE": "Product E",
+          "productF": "Product F",
+          "productG": "Product G",
+          "productH": "Product H"
+        }
+      },
+      "productA": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 4200},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 3800},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 4100},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 3900},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 4500},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 4800},
+        {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 5200},
+        {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 4900},
+        {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 4700},
+        {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 5100},
+        {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 5500},
+        {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 6000}
+      ],
+      "productB": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 3500},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 3700},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 3600},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 3900},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 4100},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 4300},
+        {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 4500},
+        {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 4400},
+        {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 4200},
+        {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 4600},
+        {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 4800},
+        {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 5200}
+      ],
+      "productC": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 2800},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 2900},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 3100},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 3200},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 3400},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 3600},
+        {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 3800},
+        {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 3700},
+        {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 3500},
+        {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 3900},
+        {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 4100},
+        {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 4400}
+      ],
+      "productD": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 3200},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 3000},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 3300},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 3100},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 3500},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 3700},
+        {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 4000},
+        {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 3900},
+        {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 3700},
+        {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 4100},
+        {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 4300},
+        {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 4700}
+      ],
+      "productE": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 2500},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 2600},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 2700},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 2800},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 3000},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 3200},
+        {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 3400},
+        {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 3300},
+        {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 3100},
+        {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 3500},
+        {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 3700},
+        {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 4000}
+      ],
+      "productF": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 1800},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 1900},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 2000},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 2100},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 2300},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 2500},
+        {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 2700},
+        {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 2600},
+        {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 2400},
+        {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 2800},
+        {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 3000},
+        {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 3300}
+      ],
+      "productG": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 1500},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 1600},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 1700},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 1800},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 2000},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 2200},
+        {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 2400},
+        {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 2300},
+        {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 2100},
+        {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 2500},
+        {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 2700},
+        {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 3000}
+      ],
+      "productH": [
+        {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January", "value": 2200},
+        {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February", "value": 2300},
+        {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March", "value": 2400},
+        {"key": "4", "label": "APR 1, 2025", "displayLabel": "April", "value": 2500},
+        {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May", "value": 2700},
+        {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June", "value": 2900},
+        {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July", "value": 3100},
+        {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August", "value": 3000},
+        {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September", "value": 2800},
+        {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October", "value": 3200},
+        {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November", "value": 3400},
+        {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December", "value": 3700}
+      ]
+    },
+    "customAxisDemo": [
+      {"key": "1", "label": "JAN 1, 2025", "displayLabel": "January 2025", "value": 3200},
+      {"key": "2", "label": "FEB 1, 2025", "displayLabel": "February 2025", "value": 3500},
+      {"key": "3", "label": "MAR 1, 2025", "displayLabel": "March 2025", "value": 3100},
+      {"key": "4", "label": "APR 1, 2025", "displayLabel": "April 2025", "value": 4200},
+      {"key": "5", "label": "MAY 1, 2025", "displayLabel": "May 2025", "value": 3800},
+      {"key": "6", "label": "JUN 1, 2025", "displayLabel": "June 2025", "value": 4500},
+      {"key": "7", "label": "JUL 1, 2025", "displayLabel": "July 2025", "value": 4100},
+      {"key": "8", "label": "AUG 1, 2025", "displayLabel": "August 2025", "value": 4800},
+      {"key": "9", "label": "SEP 1, 2025", "displayLabel": "September 2025", "value": 4300},
+      {"key": "10", "label": "OCT 1, 2025", "displayLabel": "October 2025", "value": 5200},
+      {"key": "11", "label": "NOV 1, 2025", "displayLabel": "November 2025", "value": 4900},
+      {"key": "12", "label": "DEC 1, 2025", "displayLabel": "December 2025", "value": 5500}
+    ]
+  }

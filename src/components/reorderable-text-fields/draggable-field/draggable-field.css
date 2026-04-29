@@ -1,0 +1,36 @@
+.draggableItem {
+  margin-bottom: 25px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: 40px;
+}
+
+.charCount {
+  position: absolute;
+  right: 64px;
+  font-size: .8em;
+  color: #757575;
+}
+
+.draggableItem .dragHandle {
+  margin-right: 8px;
+  cursor: move;
+  padding: 8px;
+}
+
+.draggableItem .dragHandle:disabled {
+  svg {
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.26);
+  }
+}
+
+.draggableItem .iconButton {
+  padding: 8px;
+}
+
+.draggableItem input {
+  padding-right: 6.5rem;
+}

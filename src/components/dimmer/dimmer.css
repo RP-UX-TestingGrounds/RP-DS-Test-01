@@ -1,0 +1,9 @@
+.dimmer {
+  position: relative;
+
+  &.dimmed {
+    .content {
+      filter: blur(2px);
+    }
+  }
+}

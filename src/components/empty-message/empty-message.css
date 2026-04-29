@@ -1,0 +1,10 @@
+.emptyMessage {
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: var(--heading-3-size);
+
+  .message {
+    font-weight: 400;
+    margin-top: .3em;
+  }
+}

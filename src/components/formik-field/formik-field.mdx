@@ -1,0 +1,71 @@
+import { Meta, Story, Canvas, Controls } from '@storybook/addon-docs/blocks';
+import * as FormikFieldStories from './formik-field.stories';
+
+<Meta of={FormikFieldStories} />
+
+# FormikField Component
+
+The `FormikField` component is a wrapper that integrates any input field component with Formik form state management. It automatically handles form validation, error display, and field state synchronization.
+
+This component acts as a bridge between Formik's form management and your input components, providing:
+
+- **Automatic form state integration** - Connects to Formik's field state
+- **Validation error handling** - Displays validation errors when fields are touched
+- **Event handling** - Manages onChange and onBlur events with Formik integration
+- **Flexible input components** - Works with any input component (TextField, SelectField, etc.)
+
+You should be able to use this component with any input field component in RP-UI that matches the `*Field` naming convention. See the [TextField](https://react-pattern.github.io/rp-ui/?path=/docs/components-inputs-textfield--docs) component for an example.
+
+
+
+### Example
+<Canvas of={FormikFieldStories.Primary} />
+
+### Properties
+
+<Controls />
+
+## Usage
+
+```jsx
+import { useFormik } from 'formik';
+import * as yup from 'yup';
+import FormikField from './formik-field';
+import TextField from '../text-field';
+
+const MyForm = () => {
+  const formik = useFormik({
+    initialValues: { email: '' },
+    validationSchema: yup.object({
+      email: yup.string().email().required()
+    }),
+    onSubmit: (values) => console.log(values)
+  });
+
+  return (
+    <FormikField
+      formik={formik}
+      name="email"
+      InputField={TextField}
+      label="Email Address"
+      placeholder="Enter your email"
+      testId="email-field"
+    />
+  );
+};
+```
+
+
+## Writing Your Own Field Component
+
+If you want to write your own field component that works with `FormikField`, make sure that the component accepts the following props:
+
+- `name`
+- `testId`
+- `error`
+- `helperText`
+- `value`
+- `onChange`
+- `onBlur`
+
+You can use the `FormikField` component as a reference for how to implement these props.

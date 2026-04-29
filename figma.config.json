@@ -1,0 +1,7 @@
+{
+  "codeConnect": {
+    "parser": "react",
+    "include": ["src/**/*.{js,jsx}"],
+    "exclude": ["**/node_modules/**", "**/*.test.{js,jsx}", "**/*.stories.{js,jsx}"]
+  }
+}

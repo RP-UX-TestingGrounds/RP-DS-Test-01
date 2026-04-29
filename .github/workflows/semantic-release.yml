@@ -1,0 +1,39 @@
+name: Release
+on:
+  push:
+    branches:
+      - main
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    env:
+      GH_NPM_PAT: ${{ secrets.COMMIT_PAT }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.COMMIT_PAT }}
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".nvmrc"
+          cache: ''
+          registry-url: "https://registry.npmjs.org"
+      - name: Overwrite .npmrc
+        run: |
+          cp .npmrc.template .npmrc
+      - name: Install dependencies
+        run: npm ci
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPMJS_TOKEN }}
+      - name: Lint
+        run: npm run lint:ci
+      - name: Test
+        run: npm run test:ci
+      - name: Release
+        run: npm run semantic-release
+        env:
+          GH_TOKEN: ${{ secrets.COMMIT_PAT }}
+          NPM_TOKEN: ${{ secrets.COMMIT_PAT }}

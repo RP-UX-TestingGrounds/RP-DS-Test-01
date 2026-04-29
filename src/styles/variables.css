@@ -1,0 +1,413 @@
+:root {
+    /* Brand Colors */
+    --rp-red: hsl(3, 72%, 51%);
+    --rp-black: hsl(0, 0%, 0%);
+    /* secondary brand colors */
+    --rp-turquoise: hsl(180, 50%, 50%);
+    --rp-slate: hsl(180, 10%, 30%);
+    --rp-tan: hsl(34, 40%, 60%);
+    --rp-olive: hsl(60, 10%, 40%);
+
+    /* Reference Colors - roughly sorted ROYGBIV,light-to-dark */
+    /* red */
+    --light-red: hsl(4, 74%, 93%);
+    --red: hsl(3, 72%, 51%);
+    --dark-red: hsl(4, 70%, 38%);
+    /* gold */
+    --light-gold: hsl(42, 100%, 87%);
+    --gold: hsl(39, 100%, 66%);
+    --dark-gold: hsl(39, 61%, 47%);
+    --copper: hsl(39, 51%, 29%);
+    /* green */
+    --light-green: hsl(150, 48%, 90%);
+    --green: hsl(152, 94%, 34%);
+    --dark-green: hsl(152, 94%, 25%);
+    /* blue */
+    --light-blue: hsl(208.9, 81.8%, 93.5%);
+    --blue: hsl(215, 68%, 50%);
+    --dark-blue: hsl(216, 72%, 38%);
+    --blue-grey-50: hsl(204, 15%, 94%);
+    --blue-grey-200: hsl(200, 15%, 73%);
+    /* greys */
+    --white: hsl(0, 0%, 100%);
+    --grey-50: hsl(0, 0%, 98%);
+    --grey-100: hsl(0, 0%, 96%);
+    --grey-200: hsl(0, 0%, 93%);
+    --grey-300: hsl(0, 0%, 88%);
+    --grey-400: hsl(0, 0%, 74%);
+    --grey-500: hsl(0, 0%, 62%);
+    --grey-600: hsl(0, 0%, 46%);
+    --grey-700: hsl(0, 0%, 38%);
+    --grey-750: hsl(0, 0%, 22%);
+    --grey-800: hsl(0, 0%, 26%);
+    --grey-900: hsl(0, 0%, 13%);
+    --black: hsl(0, 0%, 0%);
+    /* text colors */
+    --text-primary: hsl(0, 0%, 22%);
+    --text-secondary: hsl(0, 0%, 44%);
+    --text-subtle: hsl(0, 0%, 46%);
+
+    /* Data Visualization Base Colors */
+    --dataviz-blue: hsl(215, 68%, 50%);
+    --dataviz-blue-bright: hsl(203, 100%, 44%);
+    --dataviz-purple: hsl(261, 46%, 65%);
+    --dataviz-cyan: hsl(196, 100%, 44%);
+    --dataviz-cyan-dark: hsl(189, 100%, 42%);
+    --dataviz-cyan-bright: hsl(180, 100%, 39%);
+    --dataviz-teal: hsl(167, 56%, 60%);
+    --dataviz-green: hsl(142, 50%, 73%);
+    --dataviz-green-light: hsl(98, 52%, 81%);
+    --dataviz-purple: hsl(268, 58%, 63%);
+    --dataviz-magenta: hsl(313, 63%, 61%);
+    --dataviz-pink: hsl(337, 100%, 67%);
+    --dataviz-red: hsl(353, 100%, 70%);
+    --dataviz-orange: hsl(16, 100%, 65%);
+    --dataviz-orange-bright: hsl(39, 100%, 57%);
+    --dataviz-yellow: hsl(54, 100%, 45%);
+
+    /* Line Chart Colors - Sequential */
+    --seq-10: var(--dataviz-blue);
+    --seq-20: var(--dataviz-purple);
+    --seq-30: var(--dataviz-cyan);
+    --seq-40: var(--dataviz-cyan-dark);
+    --seq-50: var(--dataviz-cyan-bright);
+    --seq-60: var(--dataviz-teal);
+    --seq-70: var(--dataviz-green);
+    --seq-80: var(--dataviz-green-light);
+
+    /* Line Chart Colors - Categorical */
+    --cat-10: var(--dataviz-blue);
+    --cat-20: var(--dataviz-purple);
+    --cat-30: var(--dataviz-magenta);
+    --cat-40: var(--dataviz-pink);
+    --cat-50: var(--dataviz-red);
+    --cat-60: var(--dataviz-orange);
+    --cat-70: var(--dataviz-orange-bright);
+    --cat-80: var(--dataviz-yellow);
+
+    /* Rate Metric Colors */
+    --rate-metric-10: hsl(359, 96%, 54%);
+    --rate-metric-20: hsl(16, 96%, 56%);
+    --rate-metric-30: hsl(30, 100%, 55%);
+    --rate-metric-40: hsl(44, 100%, 55%);
+    --rate-metric-50: hsl(46, 100%, 65%);
+    --rate-metric-60: hsl(61, 79%, 54%);
+    --rate-metric-70: hsl(74, 64%, 52%);
+    --rate-metric-80: hsl(91, 54%, 50%);
+    --rate-metric-90: hsl(117, 47%, 48%);
+
+    /* Role Colors (named greys only, alpha) - Use these in styles */
+    --accent-color: var(--rp-turquoise);
+    --admin-only-color: #F6EDD8;
+    --critical-color: var(--red);
+    --highlight-color: var(--light-green);
+    --information-color: var(--light-blue);
+    --interactive-color: var(--blue);
+    --primary-color: var(--blue);
+    --secondary-color: #CCCCCC;
+    --success-color: var(--green);
+    --surface-border-color: #E4E4E4;
+    --surface-color: #F7F7F7;
+    --surface-hover-color: var(--light-blue);
+    --warning-color: var(--dark-gold);
+    --card-color: #FFFFFF;
+    /* on-colors (alpha) */
+    --on-dark-color: #FFFFFF;
+    --on-light-color: #222222;
+    --on-surface-color: #000000;
+    --on-primary-color: #FFFFFF;
+    --on-surface-color-accent: var(--blue);
+    /* bg-colors (alpha) */
+    --bg-default-color: #E4E4E4;
+    --bg-information-color: var(--light-blue);
+    --bg-critical-color: var(--light-red);
+    --bg-success-color: var(--light-green);
+    --bg-warning-color: var(--light-gold);
+
+    /* Role Colors - Design System 2 */
+
+    --action-base: var(--text-primary);
+    /* Action alpha values */
+    --action-active-alpha: 0.15;
+    --action-hover-alpha: 0.075;
+    --action-active: hsla(from var(--action-base) h s l / var(--action-active-alpha));
+    --action-hover: hsla(from var(--action-base) h s l / var(--action-hover-alpha));
+
+    /* primary */
+    --primary-main: var(--blue);
+    --primary-dark: var(--dark-blue);
+    --primary-light: var(--light-blue);
+    --on-primary: var(--white);
+    --on-primary-light: var(--primary-dark);
+    --on-primary-white: var(--primary-main);
+    /* secondary */
+    --secondary-main: var(--grey-700);
+    --secondary-dark: var(--grey-900);
+    --secondary-light: var(--grey-500);
+    --on-secondary: var(--white);
+    --on-secondary-light: var(--secondary-dark);
+    --on-secondary-white: var(--secondary-main);
+    /* success */
+    --success-main: var(--green);
+    --success-dark: var(--dark-green);
+    --success-light: var(--light-green);
+    --on-success: var(--white);
+    --on-success-light: var(--success-dark);
+    --on-success-white: var(--success-dark);
+    /* error */
+    --error-main: var(--red);
+    --error-dark: var(--dark-red);
+    --error-light: var(--light-red);
+    --on-error: var(--white);
+    --on-error-light: var(--error-dark);
+    --on-error-white: var(--error-main);
+    /* warning */
+    --warning-main: var(--gold);
+    --warning-dark: var(--dark-gold);
+    --warning-light: var(--light-gold);
+    --warning-alert-bg: var(--warning-light);
+    --on-warning: var(--copper);
+    --on-warning-light: var(--copper);
+    --on-warning-white: var(--copper);
+    /* info */
+    --info-main: var(--blue);
+    --info-dark: var(--dark-blue);
+    --info-light: var(--light-blue);
+    --on-info: var(--white);
+    --on-info-light: var(--info-dark);
+    --on-info-white: var(--info-main);
+    /* default */
+    --default-main: var(--grey-500);
+    --default-dark: var(--grey-750);
+    --default-light: var(--grey-300);
+    --on-default: var(--white);
+    --on-default-light: var(--default-dark);
+    --on-default-white: var(--default-dark);
+    /* inherit */
+    --inherit-main: var(--grey-300);
+    --inherit-dark: var(--grey-750);
+    --inherit-light: var(--grey-200);
+    --on-inherit: var(--white);
+    --on-inherit-light: var(--inherit-dark);
+    --on-inherit-white: var(--inherit-dark);
+    /* text */
+    --border-primary: var(--default-light);
+
+    /* Typeography */
+    --font-family: 'Lexend Deca', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 10px; /* Small, kept for historical purposes (and makes rem calc easy) */
+    font-family: var(--font-family);
+    --heading-1-size: 2.6rem;
+    --heading-2-size: 2.2rem;
+    --heading-3-size: 1.8rem;
+    --heading-4-size: 1.4rem;
+    --body-font-size: 1.4rem;
+    --font-weight-light: 300;
+    --font-weight-regular: 400; /* default */
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+
+    /* Typography */
+    --typography-body-sm-font-family: var(--font-family);
+    --typography-body-sm-font-weight: var(--font-weight-regular);
+    --typography-body-sm-font-size: 1.2rem;
+    --typography-body-sm-line-height: 1.6rem;
+    --typography-body-sm-letter-spacing: 0;
+
+    --typography-body-md-font-family: var(--font-family);
+    --typography-body-md-font-weight: var(--font-weight-regular);
+    --typography-body-md-font-size: 1.4rem;
+    --typography-body-md-line-height: 2.0rem;
+    --typography-body-md-letter-spacing: 0.4;
+
+    --typography-title-sm-font-family: var(--font-family);
+    --typography-title-sm-font-weight: var(--font-weight-medium);
+    --typography-title-sm-font-size: 1.6rem;
+    --typography-title-sm-line-height: 2.4rem;
+    --typography-title-sm-letter-spacing: 0;
+
+    --typography-title-md-font-family: var(--font-family);
+    --typography-title-md-font-weight: var(--font-weight-medium);
+    --typography-title-md-font-size: 1.8rem;
+    --typography-title-md-line-height: 2.4rem;
+    --typography-title-md-letter-spacing: 0;
+
+    --typography-title-lg-font-family: var(--font-family);
+    --typography-title-lg-font-weight: var(--font-weight-medium);
+    --typography-title-lg-font-size: 2.4rem;
+    --typography-title-lg-line-height: 3.2rem;
+    --typography-title-lg-letter-spacing: 0;
+
+    /* Heading (Figma Heading md) */
+    --typography-heading-md-font-family: var(--font-family);
+    --typography-heading-md-font-weight: var(--font-weight-medium);
+    --typography-heading-md-font-size: 3.6rem; /* 36px (html font-size is 10px) */
+    --typography-heading-md-line-height: 4.0rem; /* 40px */
+    --typography-heading-md-letter-spacing: 0.5px;
+
+    --typography-heading-sm-font-family: var(--font-family);
+    --typography-heading-sm-font-weight: var(--font-weight-medium);
+    --typography-heading-sm-font-size: 3.0rem;
+    --typography-heading-sm-line-height: 4.2rem;
+    --typography-heading-sm-letter-spacing: 0.5;
+
+    /* Relative Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    /* Absolute Spacing */
+    --spacing-0: 0;
+    --spacing-4: 0.4rem;
+    --spacing-6: 0.6rem;
+    --spacing-8: 0.8rem;
+    --spacing-12: 1.2rem;
+    --spacing-16: 1.6rem;
+    --spacing-20: 2.0rem;
+    --spacing-24: 2.4rem;
+    --spacing-28: 2.8rem;
+    --spacing-32: 3.2rem;
+    --spacing-36: 3.6rem;
+    --spacing-40: 4.0rem;
+
+    /* Font Sizes */
+    --font-size-xs: 1.2rem; /* currently unused TODO: review */
+    --font-size-sm: 1.3rem;
+    --font-size-md: 1.4rem; /* currently unused TODO: review */
+    --font-size-lg: 1.8rem;
+    --font-size-xl: 3.4rem;
+
+    /* Relative Line Heights */
+    --line-height-tight: 1.25;
+    --line-height-normal: 1.5;
+    --line-height-relaxed: 1.75;
+    /* Line Heights */
+    --line-height-xs: 1.6rem;  /* currently unused TODO: review */
+    --line-height-sm: 1.8rem;
+    --line-height-md: 2.4rem;
+    --line-height-lg: 2.88rem;
+    --line-height-xl: 4.3rem;
+
+    /* Shadows */
+    --shadows-0: none;
+    --shadow-card: 2px 4px 12px hsla(0, 0%, 0%, 0.08);
+    --shadow-menu: 0 4px 12px hsla(0, 0%, 0%, 0.1);
+
+    /* Buttons */
+    --button-line-height: 1.72em;
+    --button-font-size-small: 1.3rem;
+    --button-font-size-medium: 1.4rem;
+    --button-font-size-large: 1.5rem;
+    --button-font-weight: var(--font-weight-regular);
+    --button-shadow: var(--shadows-0);
+    --button-padding-y-large: 0.8rem;
+    --button-padding-x-large: 2.2rem;
+    --button-padding-y-medium: 0.6rem;
+    --button-padding-x-medium: 1.6rem;
+    --button-padding-y-small: 0.4rem;
+    --button-padding-x-small: 1rem;
+    --button-padding-y: var(--button-padding-y-medium);
+    --button-padding-x: var(--button-padding-x-medium);
+
+    /* Chips */
+    --chip-line-height: 1.384em;
+    --chip-font-size: 1.3rem;
+    --chip-font-weight: var(--font-weight-medium);
+    --chip-padding-y-medium: 0.8rem;
+    --chip-padding-x-medium: 1.0rem;
+    --chip-padding-y-small: var(--radius-button-field);
+    --chip-padding-x-small: 1.0rem;
+    --chip-inner-gap: 0.6rem;
+    --chip-padding-y: var(--chip-padding-y-medium);
+    --chip-padding-x: var(--chip-padding-x-medium);
+    --multi-chip-min-height: 3.5rem;
+    --multi-chip-max-height: 13.5rem;
+
+    /* Input Fields */
+    --input-field-filled-bg: var(--grey-100);
+    --input-field-filled-border: var(--grey-200);
+    --input-field-filled-disabled-bg: var(--grey-200);
+    --input-field-filled-padding: var(--spacing-16) var(--spacing-12);
+    --input-field-outlined-bg: var(--grey-100);
+    --input-field-outlined-border: var(--grey-200);
+    --input-field-outlined-disabled-bg: var(--grey-200);
+
+    /* Letter Spacing */
+    --letter-spacing-tight: -0.025em;
+    --letter-spacing-normal: 0;
+    --letter-spacing-wide: 0.025em;
+
+    /* Omnisearch */
+    --omnisearch-font-size-small: 1.4rem;
+    --omnisearch-font-size-medium: 1.5rem;
+    --omnisearch-font-size-large: 1.6rem;
+    --omnisearch-gap-inner: 0.375rem;
+    --omnisearch-gap-y-xs: 0.2rem;
+    --omnisearch-gap-y-small: 0.5rem;
+    --omnisearch-padding-y-small: 0.5rem;
+    --omnisearch-padding-y-medium: 1rem;
+    --omnisearch-padding-x-small: 0.5rem;
+    --omnisearch-padding-x-medium: 1rem;
+    --omnisearch-padding-x-large: 1.5rem;
+    --omnisearch-padding-xl: 2.5rem;
+    --omnisearch-radius: 0.5rem;
+
+    /* Tile Button */
+    --tile-button-padding-y-small: 1.3rem;
+    --tile-button-padding-y-medium: 2rem;
+    --tile-button-padding-x-small: 1.2rem;
+    --tile-button-padding-x-medium: 2rem;
+    --tile-button-group-gap: var(--spacing-20);
+
+    /* Radius */
+    --radius-none: 0;
+    --radius: 0.8rem;
+    --radius-button-field: 0.5rem;
+    --radius-circle: 50%;
+
+    /* Z Index Strata */
+    --z-above: 10;
+    --z-page-base: 0;
+    --z-page-spinner: calc(var(--z-above) + var(--z-page-base));
+
+    /* Modals are above the highest item in page */
+    --z-modal-base: calc(var(--z-above) + var(--z-page-spinner));
+
+    /* Modals are above the highest item in modal */
+    --z-app-base: calc(var(--z-above) + var(--z-modal-base));
+    --z-app-spinner: calc(var(--z-above) + var(--z-app-base));
+
+    /* Breakpoint / Modal Sizes */
+    --breakpoint-extra-small: 444px;
+    --breakpoint-small: 600px;
+    --breakpoint-medium: 900px;
+    --breakpoint-large: 1256px;
+    --breakpoint-extra-large: 1536px;
+
+    /* Page */
+    --page-max-width: 1184px;
+    --page-max-width-wide: 1800px;
+
+    /* Toggle Button */
+    --disabled-border-color: var(--grey-300);
+    --disabled-color: var(--grey-400);
+
+    /* Switch */
+    --switch-checked-color: var(--success-main);
+    /* Gauge */
+    --gauge-hub-color: #39056C;
+    --gauge-base-color: #D9D9D9;
+    --gauge-pointer-color: #050708;
+    --gauge-text-letter-spacing: 0.025em;
+    /* Popover */
+    --popover-bg-color: var(--card-color);
+    --popover-border-radius: var(--radius);
+    --popover-padding: var(--spacing-16);
+    --popover-shadow: var(--shadow-menu);
+
+    /* Skeleton */
+    --skeleton-bg-color: var(--grey-400);
+}

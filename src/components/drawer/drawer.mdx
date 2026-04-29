@@ -1,0 +1,130 @@
+import { Meta, Story, Canvas, Controls } from '@storybook/addon-docs/blocks';
+import * as DrawerStories from './drawer.stories';
+
+<Meta of={DrawerStories} />
+
+# Drawer Component
+The `Drawer` component is a wrapper that displays a side panel overlay.
+
+### Example
+<Canvas of={DrawerStories.Closed} />
+
+### Properties
+
+<Controls of={DrawerStories.Closed} />
+
+## Basic Usage
+The `Drawer` component is designed to come with some default UI elements for the basic use cases. Passing certain properties will automatically render the default UI elements instead of having to pass your own.
+
+### Default Header
+The `Drawer` component will automatically render a default header with a close button if you pass a `title` prop. If you don't pass a `title` prop, the default header will not be rendered.
+
+### Backdrop Close
+By default, clicking the backdrop will close the drawer. Set `allowBackdropClose` to `false` to disable this behavior.
+
+### Example: Simple Right Drawer
+```jsx
+import {
+  Drawer,
+  DrawerContent,
+  DrawerActions,
+  Button,
+} from '@encodium/rp-ui';
+import { useState } from 'react';
+
+const PageWithDrawer = () => {
+  const [open, setOpen] = useState(false);
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  return (
+    <div>
+      <button onClick={() => setOpen(true)}>Open Drawer</button>
+      <Drawer
+        open={open}
+        onClose={handleClose}
+        title="Drawer Title"
+        size="small"
+      >
+        <DrawerContent>
+          Your content here
+        </DrawerContent>
+        <DrawerActions>
+          <Button onClick={handleClose} color="primary" variant="text">Cancel</Button>
+          <Button onClick={handleClose} color="primary" variant="contained">Submit</Button>
+        </DrawerActions>
+      </Drawer>
+    </div>
+  );
+};
+```
+
+## Advanced Usage
+Even though we have the helper properties, a user can still take full control of the drawer by defining their own header, content, and actions.
+
+### Example: Custom Header
+```jsx
+import {
+  Button,
+  Drawer,
+  DrawerHeader,
+  DrawerContent,
+  DrawerActions,
+  IconButton,
+} from '@encodium/rp-ui';
+import { Close } from '@mui/icons-material';
+
+const MyDrawer = ({
+  open,
+  onClose,
+  onSubmit,
+}) => {
+  return (
+    <Drawer
+      open={open}
+      size="small"
+      onClose={onClose}
+    >
+      <DrawerHeader>
+        Custom Header
+        <IconButton onClick={onClose} size="small">
+          <Close size="small" />
+        </IconButton>
+      </DrawerHeader>
+      <DrawerContent dividers={true}>
+        Drawer Content
+      </DrawerContent>
+      <DrawerActions>
+        <Button onClick={onClose} color="primary" variant="text">Cancel</Button>
+        <Button onClick={onSubmit} color="primary" variant="contained">Action</Button>
+      </DrawerActions>
+    </Drawer>
+  );
+};
+```
+
+## Sizes
+
+The `size` prop controls the width (for left/right anchors) or height (for top/bottom anchors) of the drawer panel. Available sizes map to existing breakpoint tokens:
+
+| Size | Width |
+|------|-------|
+| `extra-small` | 444px |
+| `small` | 600px |
+| `medium` | 900px |
+| `large` | 1256px |
+
+## Anchor
+
+The `anchor` prop controls which side the drawer slides in from. Defaults to `right`.
+
+Available values: `left`, `right`, `top`, `bottom`.
+
+## Subcomponents
+
+| Component | Description |
+|-----------|-------------|
+| `DrawerHeader` | Container for the drawer title and actions. Styled with bold typography and consistent padding. |
+| `DrawerContent` | Scrollable content area. Supports a `dividers` prop for top/bottom borders. |
+| `DrawerActions` | Right-aligned container for action buttons with consistent gap and padding. |

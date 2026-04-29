@@ -1,0 +1,9 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=fallback');
+
+body {
+    font-size: var(--body-font-size);
+    color: var(--on-surface-color);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-regular);
+}
