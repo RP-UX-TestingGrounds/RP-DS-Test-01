@@ -8,13 +8,24 @@ figma.connect(
   {
     props: {
       label: figma.string('Label'),
+
+      // rp-ui collapses Start/End Icon into one icon prop + iconPosition
       icon: figma.boolean('Start Icon', {
         true: figma.instance('↳ Start Icon'),
-        false: undefined,
+        false: figma.boolean('End Icon', {
+          true: figma.instance('↳ End Icon'),
+          false: undefined,
+        }),
+      }),
+      iconPosition: figma.boolean('End Icon', {
+        true: 'end',
+        false: 'start',
       }),
     },
-    example: ({ label, icon }) => (
-      <Button icon={icon}>{label}</Button>
+    example: ({ label, icon, iconPosition }) => (
+      <Button icon={icon} iconPosition={iconPosition}>
+        {label}
+      </Button>
     ),
   }
 );
